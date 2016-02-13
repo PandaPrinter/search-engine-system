@@ -2,6 +2,7 @@
 Search engine using java and apache lucene. Applied TF/IDF metrics to search most relevant document.
 
 Part1
+
 For IDF, I use base-2 logarithm to calculate all the IDF value, which won’t affect the ranking results. In general, my algorithm can be divided into five parts:
 
 1. tFNorm() function:
