@@ -121,8 +121,8 @@ public class Part2_AuthorityHub {
 		
 		//generate base set
 		HashSet<Integer> baseSet = new HashSet<Integer>();
-		myLinkAnalysis.numDocs = r.maxDoc();
-		myLinkAnalysis l = new myLinkAnalysis();
+		LinkAnalysis.numDocs = r.maxDoc();
+		LinkAnalysis l = new LinkAnalysis();
 		int count = 0;
 		for (Map.Entry<Integer, Double> entry : list) {
 			count++;
