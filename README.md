@@ -1,7 +1,7 @@
 # search-engine-system
-Search engine using java and apache lucene. Applied TF/IDF metrics to search most relevant document.
+Search engine using java and apache lucene. 
 
-Part1
+Part1: Applied TF/IDF and vector space similarity metrics to search most relevant document.
 
 For IDF, I use base-2 logarithm to calculate all the IDF value, which won’t affect the ranking results. In general, my algorithm can be divided into five parts:
 
@@ -19,3 +19,7 @@ The same as the cosineTf() function, but the IDF factor and the results from tfI
 
 5. sortResult() function:
 Once we get the results from cosineTf() and cosineTfIdf(), we call this function to sort the results based on the value in descending order. At last we extract the first ten results as the output.
+
+Part2
+
+Implemented Authorities/Hubs and PageRank algorithm 
