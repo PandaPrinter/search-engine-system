@@ -23,3 +23,7 @@ Once we get the results from cosineTf() and cosineTfIdf(), we call this function
 Part2
 
 Implemented Authorities/Hubs and PageRank algorithm 
+
+Part3
+
+Implemented KMeans using both Forgy and Random Partition as initialization methods
