@@ -192,34 +192,6 @@ public class Part2_PageRank {
 			}
 		}
 
-		// Test Authorities, Hubs results and Tf/Idf results
-		// int[] authoritiesRes = {924, 24024, 23671, 24082, 24191, 2283, 24052,
-		// 24105, 24113, 24166};
-		// int[] hubsRes = {24092, 24064, 24061, 24082, 24108, 24093, 24193,
-		// 24054, 24189, 24117};
-		// int[] tfidf = {22156, 233, 19822, 19590, 22149, 22913, 21047, 1851,
-		// 22936, 18699};
-		// System.out.println("Authorities results: ");
-		// for (int i : authoritiesRes){
-		// if (finalRes.containsKey(i)){
-		// System.out.println(i + ": " + finalRes.get(i));
-		// }
-		// }
-		// System.out.println();
-		// System.out.println("Hubs results: ");
-		// for (int i : hubsRes){
-		// if (finalRes.containsKey(i)){
-		// System.out.println(i + ": " + finalRes.get(i));
-		// }
-		// }
-		// System.out.println();
-		// System.out.println("Tf/Idf results: ");
-		// for (int i : tfidf){
-		// if (finalRes.containsKey(i)){
-		// System.out.println(i + ": " + finalRes.get(i));
-		// }
-		// }
-
 		// sort results
 		int count2 = 0;
 		Map<Integer, Double> sortedMap = sortByValue(finalRes);
